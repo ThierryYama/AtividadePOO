@@ -18,8 +18,8 @@ public class Bolo{
     
     @Override
     public String toString() {
-        return "Bolo [cobertura=" + cobertura + ", recheio=" + recheio + ", tamanho=" + tamanho + "]";
+        return "Tamanho do Bolo: " + tamanho + ", cobertura: " + cobertura + ", recheio: " + recheio;
     }
 
-    
+
 }
