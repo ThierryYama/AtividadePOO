@@ -16,9 +16,8 @@ public class Peixe extends Animal implements AnimalDeEstimacao {
     }
 
     
-    public Void brincar() {
-        System.out.println("Brincando de nadar");
-        return null;
+    public String brincar() {
+        return "Brincando de nadar";
     }
 
     @Override

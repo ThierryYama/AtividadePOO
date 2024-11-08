@@ -15,9 +15,8 @@ public class Cachorro extends Animal implements AnimalDeEstimacao {
     }
 
     @Override
-    public Void brincar() {
-        System.out.println("Brincando de pegar a bolinha");
-        return null;
+    public String brincar() {
+        return "Brincando de pegar a bolinha"; 
     }
 
     @Override

@@ -8,11 +8,13 @@ public class App {
 
         Animal formiga = new Formiga();
 
-        cachorro.setNome("dog");
+        cachorro.setNome("Dog");
         System.out.println(cachorro.getNome());
+        System.out.println(cachorro.brincar());
 
-        peixe.setNome("FISH");
+        peixe.setNome("Fish");
         System.out.println(peixe.getNome());
+        System.out.println(peixe.brincar());
 
         formiga.caminhar();
         formiga.comer();
